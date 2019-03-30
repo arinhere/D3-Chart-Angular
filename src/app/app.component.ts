@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+declare let d3: any;
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'd3-angular7';
+  
 }
